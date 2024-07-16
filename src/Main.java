@@ -7,14 +7,12 @@ public class Main {
         } else {
             System.out.println("Если возраст человека равен " + age + " , то он совершеннолетний");
         }
-
         System.out.println("Задание 2");
 
         int temperature = -4;
-        if (temperature > 5) {
+        if (temperature >= 5) {
             System.out.println("Сегодня тепло, можно идти без шапки");
-        }
-        if (temperature < 5) {
+        } else {
             System.out.println("На улице холодно, нужно надеть шапку");
         }
 
@@ -99,3 +97,4 @@ public class Main {
             }
         }
     }
+}
